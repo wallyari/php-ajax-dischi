@@ -1,0 +1,32 @@
+/* HEADER */
+header{
+    padding: 10px 20px;
+    background-color:#2e3a46;
+    height: 60px;
+}
+header img{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+/* MAIN */
+main{
+    background-color: #1e2d3b;
+    width: 100%;
+    height: calc(100vh - 60px);
+    position: fixed;
+    top: 50px;
+    left: 0;
+    overflow: auto;
+}
+.my_card{
+    background-color: #2e3a46;
+    height: 350px;
+}
+
+h1{
+    font-size: 15px;
+}
+.myspan{
+    font-size: 13px;
+}
