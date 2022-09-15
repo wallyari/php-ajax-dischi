@@ -23,7 +23,7 @@
 
     <!-- Header -->
     <header>
-    <img class="logo" src="../logo-spotify.png" alt="spotify-logo">
+    <img  class="pb-2"src="../logo-spotify.png" alt="spotify-logo">
     </header>
 
     <!-- Main -->
@@ -34,7 +34,7 @@
                     foreach($database as $discs){
                         echo "<div class='col'> ";
                             echo "<div class='my_card mb-5 p-2'>";
-                                echo "<img src='" . $discs['poster'] . "' alt='img' class='img-fluid mb-4'>";
+                                echo "<img src='" . $discs['poster'] . "' class='img-fluid mb-4'>";
                                 echo "<div class='d-flex flex-column text-center'> ";
                                     echo "<h1 class='text-white text-uppercase d-block mb-4'>" . $discs['title'] . "</h1>";
                                     echo "<span class='text-secondary my_span'>" . $discs['author'] . "</span>";

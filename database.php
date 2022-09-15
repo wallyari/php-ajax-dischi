@@ -1,4 +1,3 @@
-<!-- Array dei dischi -->
 <?php
 $database = [
         [

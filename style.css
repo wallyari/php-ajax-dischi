@@ -2,12 +2,11 @@
 header{
     padding: 10px 20px;
     background-color:#2e3a46;
-    height: 60px;
+    height: 70px;
 }
 header img{
-    width: 40px;
-    height: 40px;
-    text-align: center;
+    height: 50px;
+
 }
 /* MAIN */
 main{
@@ -15,18 +14,18 @@ main{
     width: 100%;
     height: calc(100vh - 60px);
     position: fixed;
-    top: 50px;
+    top: 60px;
     left: 0;
     overflow: auto;
 }
 .my_card{
     background-color: #2e3a46;
-    height: 350px;
+    max-height: 400px;
 }
 
 h1{
     font-size: 15px;
 }
-.myspan{
+.my_span{
     font-size: 13px;
 }
